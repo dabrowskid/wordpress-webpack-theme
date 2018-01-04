@@ -3,7 +3,7 @@
 
 
 require('../style/style.less');
-require('highlight.js/styles/default.css');
+require('highlight.js/styles/idea.css');
 
 
 

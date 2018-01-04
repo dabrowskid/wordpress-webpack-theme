@@ -1,4 +1,4 @@
-/*
+    /*
 Theme Name: Webpack bootstrap 
 Theme URI: 
 Author: Dawid Dąbrowski
@@ -13,81 +13,111 @@ Text Domain: dabrowski
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
-
-@import "variables.less";
-body {
-    padding-top: 50px;
-    font-weight: 400;
-    font-family: @font-family-sans-serif
-}
-#my-paralax {
-    width: 100%;
-    height: 400px;
-}
-.parallax-window {
-    min-height: 400px;
-    background: transparent;
-}
-footer {
-    widht: 100%;
-    background-color: @dark;
-    color: #fff;
-}
-div.page-jumbotron {
-    h1 {
-        line-height: 400px;
-        font-size: 4em;
+    
+    @import "variables.less";
+    body {
+        padding-top: 50px;
         font-weight: 100;
-        margin: 0;
+        font-family: @font-family-sans-serif
     }
-    width: 100%;
-    height: 400px;
-    line-height: 400px;
-    text-align: center;
-    color: lighten(@dark, 75%);
-    background-color:fade(@dark, 65%);
-}
-.btn {
-    &-dark {
+    #my-paralax {
+        width: 100%;
+        height: 400px;
+    }
+    .parallax-window {
+        min-height: 400px;
+        background: transparent;
+    }
+    footer {
+        width: 100%;
         background-color: @dark;
         color: #fff;
     }
-    &-dark:hover {
-        color: @light!important;
+    div.page-jumbotron {
+        h1 {
+            line-height: 400px;
+            font-size: 4em;
+            font-weight: 100;
+            margin: 0;
+        }
+        width: 100%;
+        height: 400px;
+        line-height: 400px;
+        text-align: center;
+        color: lighten(@dark, 75%);
+        background-color:fade(@dark, 65%);
     }
-}
-.post-body {
-    font-size: @medium-font;
-}
-div.code {
-    font-family: @code-font;
-    font-size: 0.8em;
-}
-footer {
-    font-size: 100%;
-}
-ul#categories {
-    li {
-        padding: 5px;
+    .btn {
+        &-dark {
+            background-color: @dark;
+            color: #fff;
+        }
+        &-dark:hover {
+            color: @light!important;
+        }
     }
-    padding: 0 10px 0;
-    font-size: 120%;
-    font-weight: 100;
-    list-style: none;
-    a {
-        color: @dark;
+    .post-body {
+        font-size: @medium-font;
     }
-}
-div#sidebar-wrapper {
-    h3 {
-        padding: 0;
-        maring: 0;
+    div.code {
+        font-family: @code-font;
+        font-size: 0.8em;
     }
-    margin-top: 30px;
-}
-div.page {
-    margin-top: 60px;
-}
-div.single-entry {
-    margin-bottom: 20px;
-}
+    footer {
+        font-size: 100%;
+    }
+    ul#categories {
+        li {
+            padding: 5px;
+        }
+        padding: 0 10px 0;
+        font-size: 120%;
+        font-weight: 100;
+        list-style: none;
+        a {
+            color: @dark;
+        }
+    }
+    div#sidebar-wrapper {
+        h3 {
+            padding: 0;
+            margin: 0;
+        }
+        margin-top: 30px;
+    }
+    div.page {
+        margin-top: 60px;
+    }
+    div.single-entry {
+        margin-bottom: 20px;
+    }
+    div.comments-area {
+        margin-top: 50px;
+    }
+    .transparent-bg {
+        background: transparent;
+    }
+    img.alignright {
+        float: right;
+        margin: 0 0 1em 1em;
+    }
+    img.alignleft {
+        float: left;
+        margin: 0 1em 1em 0;
+    }
+    img.aligncenter {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .alignright {
+        float: right;
+    }
+    .alignleft {
+        float: left;
+    }
+    .aligncenter {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }

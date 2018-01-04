@@ -5,8 +5,9 @@
 
 <head>
 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
-    <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/dist/style.css">
+    <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/dist/style.css?1">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400&amp;subset=latin-ext" rel="stylesheet">
 
 </head>

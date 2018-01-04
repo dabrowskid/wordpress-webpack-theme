@@ -20,12 +20,12 @@
                     </div>
             </div>
 
-            <hr/>
+            <hr>
         </div>
 
 
 
-        <div class="row">
+        <div class="row m-t-lg">
 
             <div class="col-md-6 col-md-offset-1">
                 <?php if ( comments_open() || get_comments_number() ) : comments_template(); endif; ?>

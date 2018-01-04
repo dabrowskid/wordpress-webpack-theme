@@ -1,33 +1,33 @@
 {
-  "name": "test",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack ./entry.js bundle.js"
-  },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "css-loader": "^0.25.0",
-    "highlight.js": "^9.7.0",
-    "image-webpack-loader": "^3.0.0",
-    "jquery": "^1.12.4",
-    "less-loader": "^2.2.3",
-    "style-loader": "^0.13.1",
-    "webpack": "^1.13.2"
-  },
-  "dependencies": {
-    "bootstrap": "^3.3.7",
-    "bootstrap-webpack": "0.0.5",
-    "exports-loader": "^0.6.3",
-    "extract-text-webpack-plugin": "^1.0.1",
-    "file-loader": "^0.9.0",
-    "imports-loader": "^0.6.5",
-    "jquery-parallax.js": "^1.4.3",
-    "less": "^2.7.1",
-    "less-loader": "^2.2.3",
-    "url-loader": "^0.5.7"
-  }
+    "name": "test",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "webpack ./entry.js bundle.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "css-loader": "^0.25.0",
+        "image-webpack-loader": "^3.0.0",
+        "jquery": "^1.12.4",
+        "less-loader": "^2.2.3",
+        "style-loader": "^0.13.1",
+        "webpack": "^1.13.2"
+    },
+    "dependencies": {
+        "bootstrap": "^3.3.7",
+        "bootstrap-webpack": "0.0.5",
+        "exports-loader": "^0.6.3",
+        "extract-text-webpack-plugin": "^1.0.1",
+        "file-loader": "^0.9.0",
+        "imports-loader": "^0.6.5",
+        "highlight.js": "^9.7.0",
+        "jquery-parallax.js": "^1.4.3",
+        "less": "^2.7.1",
+        "less-loader": "^2.2.3",
+        "url-loader": "^0.5.7"
+    }
 }
