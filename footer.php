@@ -16,7 +16,7 @@
             </div>
         </div>
 
-        <p class="pull-right m-b-md">&copy; 2016 Dąbrowski</p>
+        <p class="pull-right m-b-md">&copy; <?php echo date("Y"); ?> Dąbrowski</p>
 
     </div>
 </footer>
